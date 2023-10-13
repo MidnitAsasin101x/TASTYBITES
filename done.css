@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.order-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 500px;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.thank-you-message {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+    font-weight: 900;
+}
+
+.estimated-time {
+    font-weight: 900;
+}

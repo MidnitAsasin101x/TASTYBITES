@@ -1,0 +1,50 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #a85c5c;
+}
+
+.container {
+    background-color: #a85c5c;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.burger img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.burger h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.burger p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.order-button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #f57c00;
+}
